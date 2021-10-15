@@ -5,6 +5,22 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class JDBCConnection {
+//	public static Connection connectToDataBase() throws SQLException {
+//		final String url = "jdbc:mysql://node109230-minhpham.ric.jelastic.vps-host.net/catchcookiexssweb";
+//		final String user = "root";
+//		final String password = "BQAiyi59705";
+//
+//		try {
+//			Class.forName("com.mysql.jdbc.Driver");
+//			return DriverManager.getConnection(url, user, password);
+//		} catch (ClassNotFoundException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//
+//		return null;
+//	}
+	
 	public static Connection connectToDataBase() throws SQLException {
 		final String url = "jdbc:mysql://localhost:3306/catchcookiexssweb";
 		final String user = "root";

@@ -11,14 +11,14 @@ import javax.servlet.http.HttpServletResponse;
 import dao.CookieDao;
 import model.CookieModel;
 
-@WebServlet(urlPatterns = { "/add" }) // /add?cookie=
+@WebServlet(urlPatterns = { "/add" }) // /add?c=
 public class AddCookie extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 //		resp.setContentType("text/html");
 //		PrintWriter pw = resp.getWriter();
 		
-		String cookieValue = req.getParameter("cookie");
+		String cookieValue = req.getParameter("c");
 		
 		if (cookieValue != null) {
 //			pw.println("Cookie: " + cookieValue);
@@ -38,7 +38,7 @@ public class AddCookie extends HttpServlet {
 //		resp.setContentType("text/html");
 //		PrintWriter pw = resp.getWriter();
 		
-		String cookieValue = req.getParameter("cookie");
+		String cookieValue = req.getParameter("c");
 		
 		if (cookieValue != null) {
 //			pw.println("Cookie: " + cookieValue);
