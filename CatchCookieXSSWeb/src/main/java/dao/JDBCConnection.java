@@ -6,9 +6,9 @@ import java.sql.SQLException;
 
 public class JDBCConnection {
 	public static Connection connectToDataBase() throws SQLException {
-		final String url = "jdbc:mysql://localhost:3306/catchcookiexssweb";
+		final String url = "jdbc:mysql://node5257-minhpham.dal.togglebox.site/catchcookiexssweb";
 		final String user = "root";
-		final String password = "";
+		final String password = "FNAkes66903";
 
 		try {
 			Class.forName("com.mysql.jdbc.Driver");

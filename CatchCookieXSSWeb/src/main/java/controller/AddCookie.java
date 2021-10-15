@@ -15,45 +15,41 @@ import model.CookieModel;
 public class AddCookie extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		resp.setContentType("text/html");
-
-		PrintWriter pw = resp.getWriter();
+//		resp.setContentType("text/html");
+//		PrintWriter pw = resp.getWriter();
+		
 		String cookieValue = req.getParameter("cookie");
 		
 		if (cookieValue != null) {
-			pw.println("Cookie: " + cookieValue);
+//			pw.println("Cookie: " + cookieValue);
 			
 			CookieModel c = new CookieModel();
 			c.setValue(cookieValue);
 			
 			CookieDao cookieDao = new CookieDao();
 			cookieDao.add(c);
-		} else {
-			pw.println("Null cookie");
 		}
 
-		pw.close();
+//		pw.close();
 	}
 	
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		resp.setContentType("text/html");
-
-		PrintWriter pw = resp.getWriter();
+//		resp.setContentType("text/html");
+//		PrintWriter pw = resp.getWriter();
+		
 		String cookieValue = req.getParameter("cookie");
 		
 		if (cookieValue != null) {
-			pw.println("Cookie: " + cookieValue);
+//			pw.println("Cookie: " + cookieValue);
 			
 			CookieModel c = new CookieModel();
 			c.setValue(cookieValue);
 			
 			CookieDao cookieDao = new CookieDao();
 			cookieDao.add(c);
-		} else {
-			pw.println("Null cookie");
 		}
 
-		pw.close();
+//		pw.close();
 	}
 }
