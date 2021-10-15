@@ -23,7 +23,7 @@ public class DeleteAllCookie extends HttpServlet {
 		PrintWriter pw = resp.getWriter();
 		pw.println("Delete all cookie success!");
 		pw.println("</br>");
-		pw.println("<a href='/CatchCookieXSSWeb/show'>Show all cookie</a>");
+		pw.println("<a href='/CatchCookieXSSWeb/'>Show all cookie</a>");
 		
 		pw.close();
 	}

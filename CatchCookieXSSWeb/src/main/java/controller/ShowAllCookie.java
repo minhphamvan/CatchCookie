@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import dao.CookieDao;
 import model.CookieModel;
 
-@WebServlet(urlPatterns = {"/show"})
+@WebServlet(urlPatterns = {"/"})
 public class ShowAllCookie extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

