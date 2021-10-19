@@ -1,4 +1,5 @@
 package controller;
+
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -17,39 +18,20 @@ public class AddCookie extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 //		resp.setContentType("text/html");
 //		PrintWriter pw = resp.getWriter();
-		
+
 		String cookieValue = req.getParameter("c");
-		
+
 		if (cookieValue != null) {
 //			pw.println("Cookie: " + cookieValue);
-			
+
 			CookieModel c = new CookieModel();
 			c.setValue(cookieValue);
-			
+
 			CookieDao cookieDao = new CookieDao();
 			cookieDao.add(c);
 		}
 
 //		pw.close();
 	}
-	
-	@Override
-	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-//		resp.setContentType("text/html");
-//		PrintWriter pw = resp.getWriter();
-		
-		String cookieValue = req.getParameter("c");
-		
-		if (cookieValue != null) {
-//			pw.println("Cookie: " + cookieValue);
-			
-			CookieModel c = new CookieModel();
-			c.setValue(cookieValue);
-			
-			CookieDao cookieDao = new CookieDao();
-			cookieDao.add(c);
-		}
 
-//		pw.close();
-	}
 }
