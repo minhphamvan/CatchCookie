@@ -1,111 +1,57 @@
-khuyến mãi 80%": 37 sản phẩm</h2>
+khuyến mãi 40%": 6 sản phẩm</h2>
                     <div class="wrap" onmouseover="myFunction()">
                         <ul class="product_list row grid">
                             <li class="ajax_block_product col-xs-6 col-sm-4 col-md-4 col-lg-3">
-                                <div class="block-product-inner grid-view">
-                                    <div class="item-inner" itemtype="http://schema.org/Product" itemscope="">
-                                        <div class="prd">
-                                            <div class="item-img clearfix">
-                                                <a class="product-image" href="https://urbanpetshop.vn/products/soup-thuong-inabao-cho-meo-truong-thanh-75.html" title="SOUP THƯỞNG INABAO CHO MÈO TRƯỞNG THÀNH" itemprop="url">
-                                                    <span class="img-main">
-                                                      <img class="replace-2x" src="https://urbanpetshop.vn/upload/thumb/1622218102_soup-thuong-inabao-cho-meo-truong-thanh0.jpg" alt="SOUP THƯỞNG INABAO CHO MÈO TRƯỞNG THÀNH" itemprop="image">
-                                                       <img class="replace-2x" src="https://urbanpetshop.vn/upload/thumb/1622218080_0.jpg" alt="SOUP THƯỞNG INABAO CHO MÈO TRƯỞNG THÀNH" itemprop="image">
-                                                  </span>
-                                                </a>
-                                            </div>
-                                            <div class="item-info">
-                                                <div class="item-title">
-                                                    <a class="product-name" href="https://urbanpetshop.vn/products/soup-thuong-inabao-cho-meo-truong-thanh-75.html" itemprop="url">SOUP THƯỞNG INABAO CHO MÈO...</a>
-                                                </div>
-                                                <div class="price_block">
-                                                    <div itemprop="offers" class="item-price">
-                                                        <span itemprop="price" class="price product-price"></span>
-                                                        <span class="product-price">28.000 đ</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                <img class="replace-2x" src="https://urbanpetshop.vn/upload/thumb/1632382637_mon-ami-toy-vinyl-do-choi-xuong-co-my0.gif" itemprop="image">
+                                <div class="item-info">
+                                    <a class="product-name" itemprop="url">ĐỒ CHƠI XƯƠNG - MON AMY TOY</a>
+                                    <div class="price_block">
+                                        <span class="product-price">25.000 đ</span>
                                     </div>
                                 </div>
                             </li>
                             <li class="ajax_block_product col-xs-6 col-sm-4 col-md-4 col-lg-3">
-                                <div class="block-product-inner grid-view">
-                                    <div class="item-inner  " itemtype="http://schema.org/Product" itemscope="">
-                                        <div class="prd">
-                                            <div class="item-img clearfix">
-                                                <a class="product-image" href="https://urbanpetshop.vn/products/soup-thuong-inabao-cho-meo-truong-thanh-75.html" title="SOUP THƯỞNG INABAO CHO MÈO TRƯỞNG THÀNH" itemprop="url">
-                                                    <span class="img-main">
-                                                      <img class="replace-2x" src="https://urbanpetshop.vn/upload/thumb/1622218102_soup-thuong-inabao-cho-meo-truong-thanh0.jpg" alt="SOUP THƯỞNG INABAO CHO MÈO TRƯỞNG THÀNH" itemprop="image">
-                                                       <img class="replace-2x" src="https://urbanpetshop.vn/upload/thumb/1622218080_0.jpg" alt="SOUP THƯỞNG INABAO CHO MÈO TRƯỞNG THÀNH" itemprop="image">
-                                                  </span>
-                                                </a>
-                                            </div>
-                                            <div class="item-info">
-                                                <div class="item-title">
-                                                    <a class="product-name" href="https://urbanpetshop.vn/products/soup-thuong-inabao-cho-meo-truong-thanh-75.html" itemprop="url">SOUP THƯỞNG INABAO CHO MÈO...</a>
-                                                </div>
-                                                <div class="price_block">
-                                                    <div itemprop="offers" class="item-price">
-                                                        <span itemprop="price" class="price product-price"></span>
-                                                        <span class="product-price">28.000 đ</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                <img class="replace-2x" src="https://urbanpetshop.vn/upload/thumb/1632382909_mon-ami-toy-soft-do-choi-nem-canh-quat0.gif" itemprop="image">
+                                <div class="item-info">
+                                    <a class="product-name" itemprop="url">ĐỒ CHƠI NÉM CÁNH QUẠT</a>
+                                    <div class="price_block">
+                                        <span class="product-price">33.000 đ</span>
                                     </div>
                                 </div>
                             </li>
                             <li class="ajax_block_product col-xs-6 col-sm-4 col-md-4 col-lg-3">
-                                <div class="block-product-inner grid-view">
-                                    <div class="item-inner  " itemtype="http://schema.org/Product" itemscope="">
-                                        <div class="prd">
-                                            <div class="item-img clearfix">
-                                                <a class="product-image" href="https://urbanpetshop.vn/products/soup-thuong-inabao-cho-meo-truong-thanh-75.html" title="SOUP THƯỞNG INABAO CHO MÈO TRƯỞNG THÀNH" itemprop="url">
-                                                    <span class="img-main">
-                                                      <img class="replace-2x" src="https://urbanpetshop.vn/upload/thumb/1622218102_soup-thuong-inabao-cho-meo-truong-thanh0.jpg" alt="SOUP THƯỞNG INABAO CHO MÈO TRƯỞNG THÀNH" itemprop="image">
-                                                       <img class="replace-2x" src="https://urbanpetshop.vn/upload/thumb/1622218080_0.jpg" alt="SOUP THƯỞNG INABAO CHO MÈO TRƯỞNG THÀNH" itemprop="image">
-                                                  </span>
-                                                </a>
-                                            </div>
-                                            <div class="item-info">
-                                                <div class="item-title">
-                                                    <a class="product-name" href="https://urbanpetshop.vn/products/soup-thuong-inabao-cho-meo-truong-thanh-75.html" itemprop="url">SOUP THƯỞNG INABAO CHO MÈO...</a>
-                                                </div>
-                                                <div class="price_block">
-                                                    <div itemprop="offers" class="item-price">
-                                                        <span itemprop="price" class="price product-price"></span>
-                                                        <span class="product-price">28.000 đ</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                <img class="replace-2x" src="https://urbanpetshop.vn/upload/thumb/1632220636_mon-ami-toy-vinyl-do-choi-banh-hamburger0.gif" itemprop="image">
+                                <div class="item-info">
+                                    <a class="product-name" itemprop="url">BÁNH HAMBURGER - MON AMI TOY</a>
+                                    <div class="price_block">
+                                        <span class="product-price">39.000 đ</span>
                                     </div>
                                 </div>
                             </li>
                             <li class="ajax_block_product col-xs-6 col-sm-4 col-md-4 col-lg-3">
-                                <div class="block-product-inner grid-view">
-                                    <div class="item-inner  " itemtype="http://schema.org/Product" itemscope="">
-                                        <div class="prd">
-                                            <div class="item-img clearfix">
-                                                <a class="product-image" href="https://urbanpetshop.vn/products/soup-thuong-inabao-cho-meo-truong-thanh-75.html" title="SOUP THƯỞNG INABAO CHO MÈO TRƯỞNG THÀNH" itemprop="url">
-                                                    <span class="img-main">
-                                                      <img class="replace-2x" src="https://urbanpetshop.vn/upload/thumb/1622218102_soup-thuong-inabao-cho-meo-truong-thanh0.jpg" alt="SOUP THƯỞNG INABAO CHO MÈO TRƯỞNG THÀNH" itemprop="image">
-                                                       <img class="replace-2x" src="https://urbanpetshop.vn/upload/thumb/1622218080_0.jpg" alt="SOUP THƯỞNG INABAO CHO MÈO TRƯỞNG THÀNH" itemprop="image">
-                                                  </span>
-                                                </a>
-                                            </div>
-                                            <div class="item-info">
-                                                <div class="item-title">
-                                                    <a class="product-name" href="https://urbanpetshop.vn/products/soup-thuong-inabao-cho-meo-truong-thanh-75.html" itemprop="url">SOUP THƯỞNG INABAO CHO MÈO...</a>
-                                                </div>
-                                                <div class="price_block">
-                                                    <div itemprop="offers" class="item-price">
-                                                        <span itemprop="price" class="price product-price"></span>
-                                                        <span class="product-price">28.000 đ</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                <img class="replace-2x" src="https://urbanpetshop.vn/upload/thumb/1632382779_mon-ami-toy-vinyl-do-choi-banh-chan-cho0.gif" itemprop="image">
+                                <div class="item-info">
+                                    <a class="product-name" itemprop="url">ĐỒ CHƠI BANH CHÂN CHÓ</a>
+                                    <div class="price_block">
+                                        <span class="product-price">45.000 đ</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="ajax_block_product col-xs-6 col-sm-4 col-md-4 col-lg-3">
+                                <img class="replace-2x" src="https://urbanpetshop.vn/upload/thumb/1636512850_chuong-long-cao-cap-2-tang0.jpg" itemprop="image">
+                                <div class="item-info">
+                                    <a class="product-name" itemprop="url">LỒNG CAO CẤP 2 TẦNG KHUYẾN MÃI</a>
+                                    <div class="price_block">
+                                        <span class="product-price">95.000 đ</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="ajax_block_product col-xs-6 col-sm-4 col-md-4 col-lg-3">
+                                <img class="replace-2x" src="https://urbanpetshop.vn/upload/product/1622605677_nha-ve-sinh-khong-chan-cho-cho-cung0.png" itemprop="image">
+                                <div class="item-info">
+                                    <a class="product-name" itemprop="url">NHÀ VỆ SINH KHÔNG CHẮN CHÓ CƯNG</a>
+                                    <div class="price_block">
+                                        <span class="product-price">125.000 đ</span>
                                     </div>
                                 </div>
                             </li>
