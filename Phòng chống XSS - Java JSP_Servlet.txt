@@ -1,11 +1,12 @@
 - Reflected:
+	+ POST: Submit form bằng phương thức POST
 	+ GET: Không hiển thị từ khóa tìm kiếm
 	+ GET: Nếu hiển thị thì phải lọc --> custom tag JSTL
 	+ GET: Filter đường dẫn của client
-	+ POST: Hacker sẽ không có URL khai thác để gửi tới nạn nhân
-
+	
 - Stored:
 	+ Lọc ở phía client trước lưu trữ
 	+ Sử dụng thẻ lọc khi hiển thị ra --> custom tag JSTL
+
 
 - Extension: NoScript
