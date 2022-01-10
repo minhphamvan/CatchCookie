@@ -1,12 +1,10 @@
 - Reflected:
-	+ POST: Submit form bằng phương thức POST
+	+ POST: Submit bằng phương thức POST
 	+ GET: Không hiển thị từ khóa tìm kiếm
-	+ GET: Nếu hiển thị thì phải lọc --> custom tag JSTL
-	+ GET: Filter đường dẫn của client
+	+ GET: lọc ở FE khi người dùng nhập
+	+ GET: Nếu bypass, filter url của client --> chuyển về 404
+	+ GET: Nếu bypass qua filter url --> Lọc từ khóa tìm kiếm trước khi hiển thị
 	
 - Stored:
 	+ Lọc ở phía client trước lưu trữ
 	+ Sử dụng thẻ lọc khi hiển thị ra --> custom tag JSTL
-
-
-- Extension: NoScript
