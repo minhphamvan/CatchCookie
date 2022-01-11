@@ -1,10 +1,14 @@
+==> Validating
+	Encoding
+
 - Reflected:
 	+ POST: Submit bằng phương thức POST
 	+ GET: Không hiển thị từ khóa tìm kiếm
-	+ GET: lọc ở FE khi người dùng nhập
-	+ GET: Nếu bypass, filter url của client --> chuyển về 404
-	+ GET: Nếu bypass qua filter url --> Lọc từ khóa tìm kiếm trước khi hiển thị
+	+ GET: Cấm người dùng nhập những kí tự nguy hiểm
+	+ GET: Nếu bypass / hoặc hacker nhập qua url--> filter url
+	+ GET: Lọc từ khóa tìm kiếm trước khi hiển thị --> c:out / fn:escapeXml()
 	
 - Stored:
-	+ Lọc ở phía client trước lưu trữ
+	+ Cấm người dùng nhập những kí tự nguy hiểm trước khi lưu trữ
 	+ Sử dụng thẻ lọc khi hiển thị ra --> custom tag JSTL
+
